@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>369 Capsule Hotel | Aeropuerto de Málaga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#05070b;--panel:#0d121b;--panel2:#121926;--line:#263243;--text:#f4f6fb;--muted:#a8b1c4;
+      --red:#ff2b2b;--yellow:#ffd42a;--blue:#10a8ff;--green:#6ee36e;--purple:#bf6cff;--white:#fff;
+      --shadow:0 18px 60px rgba(0,0,0,.45);--radius:22px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at top left,#111b29 0,#05070b 40%,#020307 100%);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.45} a{color:inherit;text-decoration:none} button,input,select,textarea{font:inherit}
+    .logo{display:flex;align-items:center;gap:10px;min-width:155px}.logo-mark{font-family:'Archivo Black',sans-serif;font-size:42px;line-height:.8;letter-spacing:-3px;text-shadow:0 0 14px rgba(255,255,255,.18)}.r{color:var(--red)}.y{color:var(--yellow)}.b{color:var(--blue)}.logo small{display:block;color:white;font-size:11px;letter-spacing:2px;margin-top:2px}.topbar{position:sticky;top:0;z-index:99;display:flex;align-items:center;justify-content:space-between;padding:14px 32px;background:rgba(3,6,12,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.08)}.nav{display:flex;gap:24px;align-items:center;font-size:13px;font-weight:800;text-transform:uppercase}.nav a{opacity:.82}.nav a:hover{opacity:1;color:var(--yellow)}.cta{border:1px solid var(--yellow);background:linear-gradient(135deg,rgba(255,212,42,.12),rgba(255,43,43,.08));color:var(--yellow);padding:12px 18px;border-radius:10px;font-weight:900;text-transform:uppercase}.mobile{display:none}
+    .hero{position:relative;min-height:720px;display:grid;grid-template-columns:1.02fr .98fr;gap:28px;padding:54px 42px 30px;overflow:hidden}.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.52)),url('https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=2200&auto=format&fit=crop') center/cover;filter:saturate(.8) brightness(.7);z-index:-2}.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 25% 30%,rgba(16,168,255,.2),transparent 28%),radial-gradient(circle at 80% 20%,rgba(255,43,43,.12),transparent 28%);z-index:-1}.hero h1{font-family:'Archivo Black',sans-serif;font-size:clamp(46px,6vw,86px);line-height:.92;margin:48px 0 18px;text-transform:uppercase}.hero h1 span{color:var(--yellow)}.lead{font-size:20px;max-width:590px;color:#e7ebf5}.hero-points{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px;max-width:760px}.point{border:1px solid rgba(255,255,255,.12);background:rgba(8,12,18,.55);padding:14px;border-radius:16px;color:#fff;font-weight:800}.point i{color:var(--yellow);font-style:normal;margin-right:6px}
+    .widget{background:linear-gradient(145deg,rgba(18,25,38,.96),rgba(8,12,19,.94));border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);box-shadow:var(--shadow);position:relative;overflow:hidden}.widget::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(135deg,rgba(255,43,43,.7),rgba(255,212,42,.25),rgba(16,168,255,.65));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;opacity:.7}.booking{padding:24px;align-self:start;margin-top:20px}.widget-title{font-family:'Archivo Black',sans-serif;text-transform:uppercase;letter-spacing:.5px;margin:0 0 16px;font-size:20px}.form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.field label{display:block;color:#cbd3e4;font-size:12px;font-weight:800;margin-bottom:7px}.input{width:100%;border:1px solid #334258;background:linear-gradient(180deg,#182131,#0c111a);color:var(--text);border-radius:12px;padding:13px 14px;outline:none}.input option{background:#101827;color:#f4f6fb}select.input{color:#f4f6fb;appearance:auto}.packs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.pack{cursor:pointer;text-align:center;border:1px solid #334258;border-radius:16px;background:rgba(0,0,0,.25);padding:16px 10px;transition:.2s;position:relative}.pack:hover,.pack.active{transform:translateY(-2px);box-shadow:0 0 0 1px var(--blue),0 0 24px rgba(16,168,255,.18)}.pack:nth-child(1).active{box-shadow:0 0 0 1px var(--red),0 0 24px rgba(255,43,43,.2)}.pack:nth-child(2).active{box-shadow:0 0 0 1px var(--yellow),0 0 24px rgba(255,212,42,.18)}.pack h3{font-family:'Archivo Black';margin:0;font-size:28px}.pack:nth-child(1) h3{color:var(--red)}.pack:nth-child(2) h3{color:var(--yellow)}.pack:nth-child(3) h3{color:var(--blue)}.pack .price{font-size:32px;font-weight:900;margin-top:8px}.badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--blue);color:#00111e;padding:4px 10px;border-radius:99px;font-size:10px;font-weight:900}.btn{border:0;border-radius:12px;padding:14px 18px;font-weight:900;text-transform:uppercase;cursor:pointer}.btn-primary{background:linear-gradient(90deg,var(--red),#ff6533);color:white;width:100%;margin-top:14px}.btn-yellow{background:linear-gradient(90deg,var(--yellow),#fff06a);color:#161100}.booking-foot{display:flex;gap:18px;flex-wrap:wrap;color:#c7d0df;font-size:12px;margin-top:14px}.booking-step{display:none;margin-top:18px;border-top:1px solid #283447;padding-top:18px}.booking-step.show{display:block}.summary{display:grid;gap:8px;margin:12px 0}.summary div{display:flex;justify-content:space-between;border-bottom:1px dashed #344055;padding:8px 0}.success{padding:14px;border:1px solid rgba(110,227,110,.45);background:rgba(110,227,110,.1);border-radius:14px;color:#dfffe0;margin-top:14px;display:none}
+    .section{padding:70px 42px}.section h2{font-family:'Archivo Black';font-size:clamp(34px,4vw,58px);text-transform:uppercase;margin:0 0 14px}.kicker{color:var(--yellow);text-transform:uppercase;font-weight:900;letter-spacing:2px}.grid{display:grid;gap:18px}.cards3{grid-template-columns:repeat(3,1fr)}.cards4{grid-template-columns:repeat(4,1fr)}.card{background:linear-gradient(145deg,rgba(18,25,38,.95),rgba(8,12,19,.92));border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:24px;box-shadow:0 12px 35px rgba(0,0,0,.25)}.card h3{margin:0 0 8px;font-size:20px}.icon{font-size:32px;margin-bottom:10px;display:block}.red{color:var(--red)}.yellow{color:var(--yellow)}.blue{color:var(--blue)}.green{color:var(--green)}.purple{color:var(--purple)}.muted{color:var(--muted)}
+    .services{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015))}.service-list{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.service{padding:18px;border-radius:18px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09)}.service strong{display:block;margin-bottom:4px}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.dafo{display:grid;grid-template-columns:1fr 1fr;gap:10px}.dafo div{border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:14px}.dafo b{font-size:36px;font-family:'Archivo Black';float:left;margin-right:12px}.events{background:radial-gradient(circle at 15% 0,rgba(255,43,43,.14),transparent 30%),radial-gradient(circle at 85% 10%,rgba(16,168,255,.14),transparent 35%)}.poster{min-height:360px;background:linear-gradient(rgba(0,0,0,.38),rgba(0,0,0,.78)),url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=1300&auto=format&fit=crop') center/cover;border-radius:22px;padding:32px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid rgba(255,255,255,.15)}.poster h3{font-family:'Archivo Black';font-size:46px;margin:0;text-transform:uppercase}.offer{background:linear-gradient(135deg,rgba(255,212,42,.18),rgba(255,43,43,.12));border-color:rgba(255,212,42,.35)}.event-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin-top:22px}.event-card{position:relative;overflow:hidden}.event-tags{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.tag{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);padding:7px 10px;border-radius:999px;font-size:12px;font-weight:900}.event-program{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}.event-program .card{padding:18px}.event-mini{font-size:12px;color:#cbd3e4;text-transform:uppercase;font-weight:900;letter-spacing:.8px}.reward-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.reward-steps div{border:1px solid rgba(255,212,42,.24);background:rgba(255,212,42,.08);border-radius:14px;padding:12px;text-align:center}.contact-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.contact-strip div{border:1px solid rgba(16,168,255,.2);background:rgba(16,168,255,.07);border-radius:14px;padding:12px;font-weight:800}
+    .side-dock{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:80;background:rgba(9,13,20,.88);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:12px;display:grid;gap:8px}.dock-btn{width:74px;height:64px;border:0;background:transparent;color:#fff;border-bottom:1px solid rgba(255,255,255,.08);cursor:pointer;font-weight:800;font-size:11px}.dock-btn:hover{color:var(--yellow)}
+    .quality-wrap{grid-template-columns:1.1fr .9fr}.stars{display:flex;gap:8px;font-size:30px;color:var(--yellow);cursor:pointer}.stars span{filter:grayscale(1);opacity:.45}.stars span.on{filter:none;opacity:1}.range-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin:12px 0}.range-row input{accent-color:var(--yellow)}.review{display:grid;grid-template-columns:42px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}.avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--red));display:grid;place-items:center;font-weight:900}.incident-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.textarea{min-height:92px;resize:vertical}.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:999;display:none;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modal-card{width:min(720px,100%);max-height:90vh;overflow:auto}.close{float:right;background:#1b2433;color:#fff;border:1px solid #39475c;border-radius:10px;padding:8px 11px;cursor:pointer}.career-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}.career-form textarea,.career-form .full{grid-column:1/-1}.mini-table{width:100%;border-collapse:collapse;margin-top:12px}.mini-table td,.mini-table th{padding:11px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left}.footer{padding:36px 42px;border-top:1px solid rgba(255,255,255,.1);background:#03050a;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;color:#c8d0df}.footer b{color:white}
+    @media(max-width:1000px){.hero,.split,.quality-wrap,.event-grid{grid-template-columns:1fr}.cards3,.cards4,.service-list,.event-program{grid-template-columns:1fr 1fr}.side-dock{display:none}.nav{display:none}.mobile{display:block}.hero-points{grid-template-columns:1fr 1fr}.form-grid,.packs{grid-template-columns:1fr}.footer{grid-template-columns:1fr}}@media(max-width:620px){.cards3,.cards4,.service-list{grid-template-columns:1fr}.topbar,.section,.hero,.footer{padding-left:18px;padding-right:18px}.career-form,.incident-grid,.contact-strip,.reward-steps{grid-template-columns:1fr}.event-program{grid-template-columns:1fr}.hero h1{font-size:46px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home" aria-label="369 Capsule Hotel"><div><div class="logo-mark"><span class="r">3</span><span class="y">6</span><span class="b">9</span></div><small>CAPSULE HOTEL</small></div></a>
+    <nav class="nav">
+      <a href="#concepto">Concepto</a><a href="#packs">Packs</a><a href="#servicios">Servicios</a><a href="#eventos">Eventos</a><a href="#rsc">RSC</a><a href="#calidad">Calidad</a><a href="#trabaja">Trabaja</a><a href="#empresa">Empresa</a>
+    </nav>
+    <a class="cta" href="#reserva">Reserva ahora</a>
+  </header>
+
+  <main id="home" class="hero">
+    <section>
+      <div class="kicker">Aeropuerto de Málaga-Costa del Sol</div>
+      <h1>Descansa.<br>Recarga.<br><span>Sigue tu camino.</span></h1>
+      <p class="lead">Cápsulas premium de descanso por horas para viajeros en tránsito, escalas largas y retrasos inesperados. Privacidad inmediata dentro del aeropuerto.</p>
+      <div class="hero-points">
+        <div class="point"><i>✈</i> Dentro del aeropuerto</div><div class="point"><i>⚡</i> Check-in digital</div><div class="point"><i>⏱</i> Estancias 3·6·9h</div><div class="point"><i>🔒</i> Máxima privacidad</div>
+      </div>
+    </section>
+
+    <section class="widget booking" id="reserva">
+      <h2 class="widget-title">Reserva tu estancia</h2>
+      <div class="form-grid">
+        <div class="field"><label>Entrada</label><input id="inDate" class="input" type="date"></div>
+        <div class="field"><label>Hora de entrada</label><input id="inTime" class="input" type="time" value="13:00"></div>
+        <div class="field"><label>Viajeros</label><select id="guests" class="input"><option>1 adulto</option><option selected>2 adultos</option><option>3 adultos</option></select></div>
+      </div>
+      <div class="packs" id="packs">
+        <div class="pack" data-h="3" data-price="42"><h3>3h</h3><small>Pausa rápida</small><div class="price">42€</div></div>
+        <div class="pack" data-h="6" data-price="72"><h3>6h</h3><small>Escala media</small><div class="price">72€</div></div>
+        <div class="pack active" data-h="9" data-price="90"><span class="badge">Más popular</span><h3>9h</h3><small>Descanso completo</small><div class="price">90€</div></div>
+      </div>
+      <button class="btn btn-primary" id="availability">Ver disponibilidad</button>
+      <div class="booking-step" id="bookingStep">
+        <h3>Última cápsula disponible en este horario</h3>
+        <div class="summary" id="summary"></div>
+        <div class="form-grid">
+          <div class="field"><label>Nombre</label><input class="input" id="bookName" placeholder="Nombre y apellidos"></div>
+          <div class="field"><label>Email</label><input class="input" id="bookEmail" placeholder="email@ejemplo.com"></div>
+          <div class="field"><label>Hora extra opcional</label><select class="input" id="extra"><option value="0">No añadir</option><option value="15">+1 hora · 15€</option><option value="30">+2 horas · 30€</option></select></div>
+        </div>
+        <button class="btn btn-yellow" id="completeBooking">Completar reserva simulada</button>
+        <div class="success" id="bookingSuccess">Reserva confirmada. Código de acceso simulado: <b>369-MAG-042</b>. Te hemos enviado un email de confirmación ficticio.</div>
+      </div>
+      <div class="booking-foot"><span>✓ Mejor precio garantizado</span><span>✓ Pago seguro</span><span>✓ Acceso por código digital</span></div>
+    </section>
+  </main>
+
+  <section class="section" id="concepto">
+    <span class="kicker">Quiénes somos</span><h2>El descanso aeroportuario reinventado</h2>
+    <div class="split">
+      <div class="card"><h3>369 Capsule Hotel</h3><p>Albergue turístico de categoría única situado dentro del Aeropuerto de Málaga-Costa del Sol. Ofrece cápsulas individuales premium para dormir, descansar o asearse sin salir del aeropuerto.</p><p class="muted">Inspirado en los hoteles cápsula asiáticos y adaptado al viajero moderno: escalas, retrasos, vuelos nocturnos y micro-estancias.</p></div>
+      <div class="card"><h3>¿Qué hace diferente a 369?</h3><div class="dafo"><div><b class="blue">F</b><strong>Fortalezas</strong><br><span class="muted">Ubicación, digitalización, privacidad y alta rotación.</span></div><div><b class="red">D</b><strong>Debilidades</strong><br><span class="muted">Modelo nuevo, inversión alta y servicios limitados.</span></div><div><b class="yellow">O</b><strong>Oportunidades</strong><br><span class="muted">Más vuelos low-cost, escalas y nuevos hábitos de consumo.</span></div><div><b class="purple">A</b><strong>Amenazas</strong><br><span class="muted">Restricciones, competencia y caída del tráfico aéreo.</span></div></div><p><b>Estrategia competitiva:</b> diferenciación total. 369 no compite por ser low-cost, sino por ofrecer descanso inmediato, privado y flexible en tránsito.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="packs">
+    <span class="kicker">Cápsulas & Packs</span><h2>Elige solo el tiempo que necesitas</h2>
+    <div class="grid cards3"><div class="card"><span class="icon red">3h</span><h3>Pack 3 horas</h3><p>42€ · ideal para una pausa corta, una ducha o una siesta antes de embarcar.</p></div><div class="card"><span class="icon yellow">6h</span><h3>Pack 6 horas</h3><p>72€ · pensado para escalas medias o esperas prolongadas con mayor comodidad.</p></div><div class="card"><span class="icon blue">9h</span><h3>Pack 9 horas</h3><p>90€ · descanso completo para pasar la noche o recuperar energía antes del vuelo.</p></div></div>
+    <div class="card" style="margin-top:18px"><b>Capacidad operativa:</b> 80 cápsulas individuales con iluminación regulable, enchufes tipo C y USB, aislamiento acústico básico y cortina de privacidad. Dimensiones: 2,20 m × 1,20 m × 1,25 m.</div>
+  </section>
+
+  <section class="section services" id="servicios">
+    <span class="kicker">Mucho más que una cápsula</span><h2>Todo incluido en tu estancia</h2>
+    <div class="service-list"><div class="service"><span class="icon">🚿</span><strong>Duchas y aseos</strong><span class="muted">Acceso incluido durante tu reserva.</span></div><div class="service"><span class="icon">📶</span><strong>WiFi gratuito</strong><span class="muted">Conexión rápida para seguir tu viaje.</span></div><div class="service"><span class="icon">🧳</span><strong>Taquilla individual</strong><span class="muted">Seguridad y comodidad para tu equipaje.</span></div><div class="service"><span class="icon">🛏</span><strong>Ropa de cama</strong><span class="muted">Textiles listos y cápsula preparada.</span></div><div class="service"><span class="icon">☕</span><strong>369 Bar</strong><span class="muted">Café, bebidas y snacks.</span></div><div class="service"><span class="icon">🤖</span><strong>Check-in automático</strong><span class="muted">Kiosko, QR y acceso digital.</span></div><div class="service"><span class="icon">🏧</span><strong>Cambio de divisa</strong><span class="muted">ATM disponible para viajeros.</span></div><div class="service"><span class="icon">🍽</span><strong>Zona común</strong><span class="muted">Microondas, fogones y vending 24h.</span></div></div>
+  </section>
+
+  <section class="section events" id="eventos">
+    <span class="kicker">Eventos 369</span><h2>Escalas que se convierten en recuerdos</h2>
+    <p class="lead">No somos un hotel de grandes eventos: somos un espacio de tránsito que convierte una espera larga en una experiencia social breve, sencilla y memorable.</p>
+    <div class="event-grid">
+      <div class="poster event-card">
+        <p class="event-mini yellow">Todos los miércoles · 20:00–22:30 · Entrada gratuita</p>
+        <h3>Noche de<br><span class="yellow">juegos de mesa</span></h3>
+        <p>Juegos, risas y buen ambiente para viajeros como tú. Conoce gente de todo el mundo antes de seguir tu viaje.</p>
+        <div class="event-tags"><span class="tag">Catan</span><span class="tag">Dixit</span><span class="tag">Ajedrez</span><span class="tag">Cartas</span><span class="tag">No hace falta reservar</span></div>
+      </div>
+      <div class="grid">
+        <div class="card"><h3>Micro-eventos semanales</h3><p>Actividades informales de 1–2 horas, gestionadas desde recepción y comunicadas con cartelería, redes sociales y avisos en el 369 Bar.</p></div>
+        <div class="card offer"><h3>Perfect Pause · 10€</h3><p><b>Refresco + Bocapizza</b> durante eventos. Una oferta rápida para picar algo sin perder tiempo antes del embarque.</p></div>
+        <div class="card"><h3>Espacios utilizados</h3><p>Salón social de 30 m² y 369 Bar de 20 m², con mesas móviles, iluminación ambiental, música, juegos de mesa y TV/pantalla.</p></div>
+      </div>
+    </div>
+    <div class="event-program">
+      <div class="card"><span class="event-mini red">Lunes</span><h3>Trivia Night</h3><p>Quizzes rápidos para viajeros internacionales. Ideal para romper el hielo.</p></div>
+      <div class="card"><span class="event-mini yellow">Miércoles</span><h3>Board Games</h3><p>La noche principal de juegos de mesa en el 369 Bar.</p></div>
+      <div class="card"><span class="event-mini blue">Viernes</span><h3>Cultural Exchange</h3><p>Intercambio cultural e idiomas entre huéspedes en tránsito.</p></div>
+      <div class="card"><span class="event-mini green">Según ocupación</span><h3>Theme Nights</h3><p>Cine, música o idiomas en formato breve y de bajo impacto.</p></div>
+    </div>
+    <div class="split" style="margin-top:18px">
+      <div class="card"><h3>Capacidad y acceso</h3><p>Eventos gratuitos, sin reserva obligatoria y con capacidad máxima combinada aproximada de <b>25–30 personas</b>. El objetivo es generar comunidad y consumo en bar, no vender entradas.</p><div class="contact-strip"><div>📧 info@369capsulehotel.com</div><div>📞 +34 600 000 000</div><div>📍 Aeropuerto de Málaga</div></div></div>
+      <div class="card"><h3>369 Rewards</h3><p>Un sistema sencillo para premiar a los viajeros que participan en la vida social del hotel.</p><div class="reward-steps"><div><b>1</b><br>evento = 1 punto</div><div><b>5</b><br>puntos = bebida gratis</div><div><b>10</b><br>puntos = descuento futuro</div></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="rsc">
+    <span class="kicker">Responsabilidad Social Corporativa</span><h2>Un descanso más inteligente y sostenible</h2>
+    <div class="grid cards3"><div class="card"><span class="icon green">🌱</span><h3>Sostenibilidad</h3><p>Iluminación LED, control automático de consumo en cápsulas, lavandería eficiente y reducción de plásticos mediante amenities reutilizables.</p></div><div class="card"><span class="icon blue">🤝</span><h3>Compromiso social</h3><p>Contratación local, colaboración con empresas malagueñas, igualdad de oportunidades y módulo de descanso exclusivo para mujeres.</p></div><div class="card"><span class="icon yellow">💡</span><h3>Innovación responsable</h3><p>Digitalización para reducir papel y ubicación dentro del aeropuerto para evitar desplazamientos innecesarios.</p></div></div>
+  </section>
+
+  <section class="section" id="calidad">
+    <span class="kicker">Calidad & Soporte</span><h2>Tu opinión nos hace mejores</h2>
+    <div class="split quality-wrap">
+      <div class="widget card"><h3>Encuesta post-estancia</h3><p class="muted">Valora el check-in, la limpieza y tu descanso.</p><div class="stars" id="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div><div class="range-row"><label>Check-in automático</label><input type="range" min="1" max="5" value="5"></div><div class="range-row"><label>Limpieza de cápsula</label><input type="range" min="1" max="5" value="5"></div><div class="range-row"><label>Confort y silencio</label><input type="range" min="1" max="5" value="4"></div><textarea class="input textarea" placeholder="Cuéntanos cómo fue tu experiencia..."></textarea><button class="btn btn-yellow" onclick="fakeToast('Gracias por tu feedback. Tu encuesta ha sido registrada de forma simulada.')">Enviar feedback</button></div>
+      <div class="card"><h3>Lo que dicen nuestros huéspedes</h3><div class="review"><div class="avatar">DL</div><div><b>David L. · España</b><p class="muted">Perfecto para una escala larga. Limpio, moderno y muy cómodo.</p></div></div><div class="review"><div class="avatar">SK</div><div><b>Sarah K. · Alemania</b><p class="muted">Dormí como nunca en el aeropuerto. El check-in fue rápido.</p></div></div><div class="review"><div class="avatar">MR</div><div><b>Marco R. · Italia</b><p class="muted">Muy buena experiencia. Volveré en mi próximo vuelo.</p></div></div></div>
+    </div>
+    <div class="widget card" style="margin-top:18px" id="incidencias"><h3>369 Support Channel · Quejas y sugerencias</h3><p class="muted">Registra una incidencia durante tu estancia. Las urgentes se atienden en menos de 30 minutos y las generales en menos de 24h.</p><div class="incident-grid"><select class="input"><option>Tipo de incidencia</option><option>Queja</option><option>Sugerencia</option><option>Incidencia urgente</option></select><select class="input"><option>Área afectada</option><option>Check-in / tecnología</option><option>Limpieza</option><option>Ruido / descanso</option><option>Instalaciones</option><option>Personal</option></select></div><textarea class="input textarea" style="margin-top:12px" placeholder="Describe qué ha ocurrido..."></textarea><button class="btn btn-primary" onclick="fakeToast('Incidencia registrada. Se ha asignado al departamento correspondiente.')">Enviar incidencia</button></div>
+  </section>
+
+  <section class="section" id="limpieza">
+    <span class="kicker">Protocolo operativo</span><h2>Limpieza de cápsulas tras cada uso</h2>
+    <div class="grid cards4"><div class="card"><span class="icon green">01</span><h3>Aviso PMS</h3><p>La cápsula queda libre y se asigna automáticamente a limpieza.</p></div><div class="card"><span class="icon green">02</span><h3>Retirada e inspección</h3><p>Ropa usada, objetos olvidados y revisión inicial del estado.</p></div><div class="card"><span class="icon green">03</span><h3>Desinfección</h3><p>Limpieza de superficies, ventilación y reposición de ropa de cama.</p></div><div class="card"><span class="icon green">04</span><h3>Check final</h3><p>Control de calidad y actualización en PMS como cápsula disponible.</p></div></div>
+  </section>
+
+  <section class="section" id="trabaja">
+    <span class="kicker">Careers</span><h2>Trabaja con 369</h2>
+    <div class="split"><div class="card"><h3>Ley de Oro 369</h3><p><b>Atender al cliente de forma inmediata y sin hacerle esperar.</b></p><p>Buscamos personas proactivas, discretas y resolutivas para un entorno internacional, automatizado y de alta rotación.</p><ul><li>Programa de acogida inicial</li><li>Formación en atención al cliente y PMS</li><li>Turnos planificados</li><li>Oportunidades de promoción interna</li></ul></div><div class="widget card"><h3>Solicitud rápida</h3><div class="career-form"><input class="input" placeholder="Nombre"><input class="input" placeholder="Email"><select class="input"><option>Departamento</option><option>Recepción</option><option>Pisos</option><option>Bar</option></select><select class="input"><option>Disponibilidad</option><option>Mañana</option><option>Tarde</option><option>Noche</option></select><textarea class="input textarea full" placeholder="Cuéntanos por qué quieres formar parte de 369"></textarea><button class="btn btn-yellow full" onclick="fakeToast('Candidatura simulada enviada. Gracias por querer trabajar con 369.')">Enviar candidatura</button></div></div></div>
+  </section>
+
+  <section class="section" id="equipo">
+    <span class="kicker">Equipo</span><h2>Las personas detrás de 369</h2>
+    <div class="grid cards3"><div class="card"><span class="icon">👨‍💼</span><h3>Samuel de Luque</h3><p class="muted">Director</p></div><div class="card"><span class="icon">🛎</span><h3>Jesús Aguilar</h3><p class="muted">Jefe de Recepción</p></div><div class="card"><span class="icon">🧼</span><h3>Ana López</h3><p class="muted">Gobernanta de Pisos</p></div></div>
+  </section>
+
+  <section class="section" id="empresa">
+    <span class="kicker">Información corporativa</span><h2>Proyecto viable, regulado y preparado</h2>
+    <div class="grid cards3"><div class="card"><h3>Normativa de referencia</h3><p>Albergue turístico regulado por normativa turística andaluza, seguridad aeroportuaria AENA, CTE, PRL, normativa sanitaria, accesibilidad, RGPD y LSSI-CE.</p><button class="btn btn-primary" onclick="openModal('modalNormativa')">Ver normativa</button></div><div class="card"><h3>Balance de situación</h3><table class="mini-table"><tr><th>Activo total</th><td>2.176.557€</td></tr><tr><th>Inversión inicial</th><td>2.064.126€</td></tr><tr><th>Patrimonio neto</th><td>870.622,80€</td></tr><tr><th>Pasivo exigible</th><td>1.305.934,20€</td></tr></table></div><div class="card"><h3>Ratios financieros</h3><table class="mini-table"><tr><th>Liquidez</th><td>0,72</td></tr><tr><th>Endeudamiento</th><td>0,60</td></tr><tr><th>Garantía</th><td>1,67</td></tr><tr><th>Solvencia</th><td>1,67</td></tr></table><p class="muted">Tesorería recomendada: 70.000€ para tres meses de actividad.</p></div></div>
+  </section>
+
+  <footer class="footer" id="contacto"><div class="logo"><div><div class="logo-mark"><span class="r">3</span><span class="y">6</span><span class="b">9</span></div><small>CAPSULE HOTEL</small></div></div><div><b>Ubicación</b><br>Aeropuerto de Málaga-Costa del Sol<br>Av. del Comandante García Morato, s/n<br>Churriana, 29004, Málaga</div><div><b>Contacto</b><br>+34 600 000 000<br>info@369capsulehotel.com<br><br>Síguenos · Instagram · TikTok · Tripadvisor</div></footer>
+
+  <div class="modal" id="modalNormativa"><div class="widget card modal-card"><button class="close" onclick="closeModal('modalNormativa')">Cerrar</button><h2 class="widget-title">Normativa de referencia</h2><p>369 Capsule Hotel opera bajo un marco normativo integral: Decreto-ley 13/2020, Ley 13/2011 del Turismo de Andalucía, normativa de seguridad aeroportuaria AENA, Código Técnico de la Edificación, Ley de Prevención de Riesgos Laborales, Reglamento CE 852/2004, Ley General de Discapacidad, Estatuto de los Trabajadores, normativa medioambiental, RGPD y LSSI-CE.</p></div></div>
+
+  <script>
+    const today=new Date(); const yyyy=today.getFullYear(); const mm=String(today.getMonth()+1).padStart(2,'0'); const dd=String(today.getDate()).padStart(2,'0'); document.getElementById('inDate').value=`${yyyy}-${mm}-${dd}`;
+    let selected={h:9,price:90}; document.querySelectorAll('.pack').forEach(p=>p.addEventListener('click',()=>{document.querySelectorAll('.pack').forEach(x=>x.classList.remove('active'));p.classList.add('active');selected={h:+p.dataset.h,price:+p.dataset.price};}));
+    const step=document.getElementById('bookingStep'), summary=document.getElementById('summary'); document.getElementById('availability').onclick=()=>{const d=document.getElementById('inDate').value,t=document.getElementById('inTime').value,g=document.getElementById('guests').value;summary.innerHTML=`<div><span>Pack seleccionado</span><b>${selected.h} horas</b></div><div><span>Entrada</span><b>${d} · ${t}</b></div><div><span>Viajeros</span><b>${g}</b></div><div><span>Total</span><b>${selected.price}€</b></div>`;step.classList.add('show');step.scrollIntoView({behavior:'smooth',block:'nearest'});};
+    document.getElementById('extra').onchange=()=>{const extra=+document.getElementById('extra').value;summary.querySelector('div:last-child b').textContent=(selected.price+extra)+'€';};
+    document.getElementById('completeBooking').onclick=()=>document.getElementById('bookingSuccess').style.display='block';
+    document.querySelectorAll('#stars span').forEach((s,i)=>s.onclick=()=>document.querySelectorAll('#stars span').forEach((x,j)=>x.classList.toggle('on',j<=i))); document.querySelectorAll('#stars span').forEach((x,j)=>x.classList.toggle('on',j<5));
+    function fakeToast(msg){alert(msg)} function openModal(id){document.getElementById(id).classList.add('show')} function closeModal(id){document.getElementById(id).classList.remove('show')}
+  </script>
+</body>
+</html>
